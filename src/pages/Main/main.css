@@ -1,0 +1,7 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(49,60,232);
+    background: linear-gradient(0deg, rgba(49,60,232,1) 0%, rgba(58,9,146,1) 100%);
+    color: white;
+}
