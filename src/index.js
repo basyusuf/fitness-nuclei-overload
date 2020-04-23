@@ -4,6 +4,7 @@ import App from './pages/Application/Application';
 import 'semantic-ui-css/semantic.min.css';
 /* Font Css */
 import './fonts/FontFile.css';
+import "font-awesome/css/font-awesome.css";
 /* Font Css */
 import * as serviceWorker from './serviceWorker';
 import {Provider} from "react-redux";

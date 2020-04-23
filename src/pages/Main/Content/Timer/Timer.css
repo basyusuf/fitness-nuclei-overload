@@ -1,0 +1,9 @@
+.timerComponent{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 60px;
+}
+.timerDescription{
+    font-size: 40px;
+}

@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
-import './main.css';
-import "font-awesome/css/font-awesome.css";
+import './Main.css';
+
+import Header from './Header/Header';
+import Content from "./Content/Content";
 class Main extends Component {
     render() {
         return (
             <div className="main">
                 <div>
-                    test
-                    <i className="fa fa-hourglass-half"></i>
+                    <Header />
+                    <Content />
                 </div>
             </div>
         );
