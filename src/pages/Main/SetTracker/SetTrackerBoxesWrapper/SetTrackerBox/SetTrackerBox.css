@@ -5,9 +5,11 @@
     height: 5vw;
     width: 5vw;
     align-items: center;
+    flex-direction: column;
     border:2px solid #C4C4C4;
     color: white;
     margin:auto;
+    user-select: none;
 }
 .setTrackerBoxPast{
     background-color: #2BB673;
@@ -17,6 +19,9 @@
     background-color: #FFEB99;
     font-size: 40px;
 }
+.setTrackerBoxNow:hover{
+    cursor: pointer;
+}
 .setTrackerBoxNext{
     background-color: #424874;
     font-size: 60px;
@@ -24,4 +29,7 @@
 .setTrackerBoxDefault{
     background-color: #C43A37;
     font-size: 60px;
+}
+.setTrackerIcons{
+    margin-top: 10px;
 }

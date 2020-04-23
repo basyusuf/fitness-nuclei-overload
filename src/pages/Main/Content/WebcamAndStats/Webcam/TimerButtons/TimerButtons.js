@@ -7,11 +7,11 @@ class TimerButtons extends Component {
             <div className="ui grid">
                 <div className="eight wide column">
                 <StatusButton buttonStatus={true} text="Start set" onClick={()=>{alert('Started set')}} />
-                <StatusButton buttonStatus={false} text="Stop set" />
+                <StatusButton buttonStatus={false} text="Finish set" />
                 </div>
                 <div className="eight wide column timerButtonsRight">
                     <StatusButton buttonStatus={true} text="Start rest" />
-                    <StatusButton buttonStatus={false} text="Stop rest" />
+                    <StatusButton buttonStatus={false} text="Finish rest" />
                 </div>
             </div>
         );

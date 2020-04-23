@@ -7,13 +7,16 @@ class SetTrackerBox extends Component {
             case "past":
                 return (
                     <div className="setTrackerBox setTrackerBoxPast">
-                        {this.props.rowNumber}
+                        <div>{this.props.rowNumber}</div>
+                        <div className="setTrackerIcons"><i className="fa fa-check-circle"></i></div>
+
                     </div>
                 );
             case "now":
                 return (
                     <div className="setTrackerBox setTrackerBoxNow">
-                        {this.props.rowNumber}
+                        <div>{this.props.rowNumber}</div>
+                        <div className="setTrackerIcons"><div className="ui active centered inline loader"></div></div>
                     </div>
                 );
             case "next":
