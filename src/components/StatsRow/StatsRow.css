@@ -1,0 +1,13 @@
+.statsRow{
+    font-size: 16px;
+}
+.statsRowTime{
+    text-align: right;
+    font-weight: 600;
+}
+.timeStatusTrue{
+    color: #2BB673;
+}
+.timeStatusFalse{
+    color: #C43A37;
+}

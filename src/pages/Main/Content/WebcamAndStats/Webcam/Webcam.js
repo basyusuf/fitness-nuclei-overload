@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import './Webcam.css';
+import Camera from "./Camera/Camera";
+import TimerButtons from "./TimerButtons/TimerButtons";
 class Webcam extends Component {
     render() {
         return (
             <div className="six wide column">
-                <div className="exampleWebcamDiv">
-                    <i className="fa fa-camera"></i>Webcam
-                </div>
+                <Camera />
+                <TimerButtons />
             </div>
         );
     }

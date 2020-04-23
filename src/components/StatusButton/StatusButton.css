@@ -1,0 +1,27 @@
+.statusButton{
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 25px;
+    font-size: 24px;
+    color: white;
+    margin-top: 7px;
+    margin-right: 0.2rem;
+}
+.statusButtonPositive{
+    background-color: #2BB673;
+    animation: 0.3s;
+}
+.statusButtonPositive:hover{
+    animation: 0.3s;
+    background-color: #04b60a;
+    cursor: pointer;
+}
+.statusButtonNegative{
+    background-color: #C43A37;
+    animation: 0.3s;
+}
+.statusButtonNegative:hover{
+    background-color: #c41c1f;
+    animation: 0.3s;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.statsHeader{
+    font-size: 30px;
+}
+.headerLine{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    height: 1px;
+    width: 100%;
+    background-color: #C1C1C1;
+}
