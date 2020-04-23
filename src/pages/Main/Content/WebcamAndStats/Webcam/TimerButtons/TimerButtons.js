@@ -6,7 +6,7 @@ class TimerButtons extends Component {
         return (
             <div className="ui grid">
                 <div className="eight wide column">
-                <StatusButton buttonStatus={true} text="Start set" />
+                <StatusButton buttonStatus={true} text="Start set" onClick={()=>{alert('Started set')}} />
                 <StatusButton buttonStatus={false} text="Stop set" />
                 </div>
                 <div className="eight wide column timerButtonsRight">

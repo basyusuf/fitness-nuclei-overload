@@ -6,7 +6,7 @@ class Content extends Component {
         return (
             <div>
                 <div className="ui segment">
-                    <Timer />
+                    <Timer description="Set" />
                     <WebcamAndStats />
                 </div>
             </div>

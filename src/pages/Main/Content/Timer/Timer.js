@@ -4,7 +4,10 @@ class Timer extends Component {
     render() {
         return (
             <div className="timerComponent">
-                0<span className="timerDescription">s</span>
+                <div className="timerDescription">
+                    {this.props.description}
+                </div>
+                <div className="timerTime">0<span className="timerValueString">s</span></div>
             </div>
         );
     }
