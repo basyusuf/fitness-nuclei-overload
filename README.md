@@ -7,7 +7,7 @@ Proje javascript kütüphanesi olan React ile yazılmıştır. Bilgisayarımızd
  Node >= 8.10 ve npm >= 5.6
 ```
 
-#Kurulum ve Çalıştırmak
+# Kurulum ve Çalıştırmak
 ```
 git clone https://github.com/basyusuf/fitness-nuclei-overload.git
 cd ./fitness-nuclei-overload
@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-#Geliştirilirken kullanılan paketler
+# Geliştirilirken kullanılan paketler
 - React
 - Redux
 - React-router-dom
